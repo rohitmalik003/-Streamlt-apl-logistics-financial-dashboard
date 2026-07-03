@@ -12,7 +12,7 @@ st.markdown("---")
 # Load the optimized dashboard file generated from Colab
 @st.cache_data
 def load_dashboard_data():
-    return pd.read_csv("cleaned_APL_Logistics.csv")
+    return pd.read_csv("cleaned_APL_Logistics.csv.gz")
 
 df = load_dashboard_data()
 
